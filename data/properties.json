@@ -1,0 +1,59 @@
+{
+  "properties": [
+    {
+      "id": "2bhk-01",
+      "type": "2 BHK",
+      "size": 1500,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "price": 5000000,
+      "priceLabel": "৳ 50 Lac",
+      "floor": "5-15",
+      "features": [
+        "Living room & dining area",
+        "Master bedroom with ensuite",
+        "Guest bedroom",
+        "2 full bathrooms",
+        "Modular kitchen",
+        "Balcony with city view"
+      ]
+    },
+    {
+      "id": "3bhk-01",
+      "type": "3 BHK",
+      "size": 2200,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "price": 7000000,
+      "priceLabel": "৳ 70 Lac",
+      "floor": "5-20",
+      "featured": true,
+      "features": [
+        "Spacious living area",
+        "Master bedroom with ensuite",
+        "2 guest bedrooms",
+        "3 full bathrooms",
+        "Premium modular kitchen",
+        "Large balcony"
+      ]
+    },
+    {
+      "id": "4bhk-01",
+      "type": "4 BHK",
+      "size": 3500,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "price": 9500000,
+      "priceLabel": "৳ 95 Lac",
+      "floor": "5-25",
+      "features": [
+        "Grand living & dining area",
+        "Master suite with walk-in closet",
+        "3 additional bedrooms",
+        "4 full bathrooms",
+        "Designer modular kitchen",
+        "Extended balcony & terrace"
+      ]
+    }
+  ]
+}

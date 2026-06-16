@@ -28,7 +28,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
         <Script id="clarity" strategy="afterInteractive">
           {`
     (function(c,l,a,r,i,t,y){
@@ -37,7 +36,9 @@ export default function RootLayout({
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "x7w5ocivro");
   `}
-        </Script>{" "}
+        </Script>
+
+        {children}
       </body>
     </html>
   );
